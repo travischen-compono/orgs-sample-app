@@ -19,15 +19,15 @@ const App = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/orgs-sample-app">
           {isAuthenticated ? (
-            <Redirect to="/admin" component={Admin} />
+            <Redirect to="/orgs-sample-app/admin" component={Admin} />
           ) : (
-            <Route path="/" component={Landing} />
+            <Route path="/orgs-sample-app" component={Landing} />
           )}
         </Route>
-        <Route path="/admin" component={Admin} />
-        <Redirect from="*" to="/" />
+        <Route path="/orgs-sample-app/admin" component={Admin} />
+        <Redirect from="*" to="/orgs-sample-app" />
       </Switch>
     </BrowserRouter>
   );
