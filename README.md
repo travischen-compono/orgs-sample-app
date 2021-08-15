@@ -1,10 +1,4 @@
 # Orgs Sample Code!
+Auth0-React quickstarts login demo
 
-## Get Started
-
-- Install NodeJS **LTS** version from <a href="https://nodejs.org/en">NodeJs Official Page</a>
-
-- `npm install`
-
-- `npm start`
-# orgs-sample-app
+https://travischen-compono.github.io/orgs-sample-app/
